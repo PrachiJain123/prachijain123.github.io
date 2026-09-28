@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prachi Jain - Data Analytics Specialist & Data Scientist with 2+ years of experience in SQL, Python, Looker, Streamlit, and Data Automation." />
+  <title>Prachi Jain | Data Analytics Specialist & Data Scientist</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-symbol">&lt;PJ /&gt;</span>
+        <span class="logo-text">Prachi Jain<span class="accent-dot">.data</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="ats-optimizer.html" class="nav-link" style="color:#3b82f6; font-weight:600;"><i class="fa-solid fa-wand-magic-sparkles"></i> ATS Tool</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="ats-optimizer.html" class="btn btn-sm btn-outline" style="border-color:#3b82f6; color:#3b82f6;">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> ATS Optimizer
+        </a>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <a href="./Prachi_Jain_Resume.pdf" download="Prachi_Jain_Resume.pdf" class="btn btn-sm btn-primary">
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-indicator"></span>
+            <span>Immediate Joiner • Data Analytics Specialist</span>
+          </div>
+
+          <h1 class="hero-title">
+            Transforming Complex Data into <br />
+            <span class="gradient-text">Actionable Business Insights</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hi, I'm <strong class="highlight-name">Prachi Jain</strong>. Data Analytics Specialist with 
+            <strong>2+ years of hands-on experience</strong> in <span class="badge-inline">SQL</span>, 
+            <span class="badge-inline">Python</span>, <span class="badge-inline">Looker</span>, 
+            <span class="badge-inline">Streamlit</span>, and enterprise workflow automation at 
+            <strong>Uber</strong>.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="ats-optimizer.html" class="btn btn-primary" style="background: linear-gradient(135deg, #2563eb, #7c3aed);">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> Launch ATS Optimizer
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <i class="fa-solid fa-chart-pie"></i> View Projects
+            </a>
+            <a href="./Prachi_Jain_Resume.pdf" download="Prachi_Jain_Resume.pdf" class="btn btn-outline" target="_blank">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/prachi-jain6584" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:prachijain6699@gmail.com" class="social-icon" title="Email Prachi">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+916266761271" class="social-icon" title="Call">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">data_pipeline_analytics.py</span>
+              <span class="terminal-tag">Python &amp; SQL</span>
+            </div>
+            <pre class="terminal-body"><code><span class="c-comment"># Automated Analytics & KPI Pipeline</span>
+<span class="c-keyword">import</span> pandas <span class="c-keyword">as</span> pd
+<span class="c-keyword">import</span> mysql.connector
+
+<span class="c-comment"># Querying enterprise metrics</span>
+<span class="c-variable">query</span> = <span class="c-string">"""
+    SELECT team_id, metric_name, AVG(sla_score) 
+    FROM uber_operations_db
+    WHERE audit_status = 'PASS'
+    GROUP BY team_id, metric_name;
+"""</span>
+
+<span class="c-variable">df</span> = pd.read_sql(query, con=db_engine)
+
+<span class="c-comment"># Automated Streamlit & Looker Sync</span>
+<span class="c-variable">pipeline</span> = uWorcAutomation(df)
+<span class="c-variable">pipeline</span>.trigger_alert_on_drift(threshold=<span class="c-string">"0.05"</span>)
+
+<span class="c-func">print</span>(<span class="c-string">"✅ Data validated: 0% leakage | Inconsistencies reduced by 38%"</span>)</code></pre>
+          </div>
+
+          <div class="hero-floating-stat stat-1">
+            <i class="fa-solid fa-chart-line stat-icon"></i>
+            <div>
+              <span class="stat-num">2+ Years</span>
+              <span class="stat-text">Analytics Experience</span>
+            </div>
+          </div>
+
+          <div class="hero-floating-stat stat-2">
+            <i class="fa-solid fa-bolt stat-icon"></i>
+            <div>
+              <span class="stat-num">38% Drop</span>
+              <span class="stat-text">Data Inconsistencies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="container metrics-grid">
+          <div class="metric-item">
+            <span class="metric-val">2+ Years</span>
+            <span class="metric-desc">Industry Experience (Uber &amp; Pro Solutions)</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">Immediate</span>
+            <span class="metric-desc">Available for Immediate Joining</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">38%</span>
+            <span class="metric-desc">Reduction in Data Inconsistencies</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-val">Postgrad</span>
+            <span class="metric-desc">PGP in Data Science &amp; Engineering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01 // Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Bridging data engineering, exploratory analysis, and business strategy.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p>
+              I am an <strong>Immediate Joiner</strong> and <strong>Data Analytics Specialist</strong> with over 2 years of hands-on experience in <strong>SQL (MySQL, PostgreSQL), Python, Looker, Streamlit</strong>, and end-to-end data automation.
+            </p>
+            <p>
+              At <strong>Uber</strong>, I query and analyse large operational datasets to generate actionable business intelligence, build automated Python scripts to streamline reporting workflows, and construct interactive dashboards in Looker and Streamlit. I have extensive exposure to enterprise platforms including <strong>uWorc, Observe.AI, NICE, DSW, and Jira</strong>.
+            </p>
+            <p>
+              Prior to Uber, I managed master data, handled data extraction, and reduced data inconsistencies by <strong>38%</strong> at Pro Solutions, while also conducting professional training sessions on Python, SQL, and Power BI.
+            </p>
+
+            <div class="about-details-list">
+              <div class="detail-row">
+                <span class="detail-key"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                <span class="detail-value">Hyderabad, India (Open to Relocation / Remote)</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-key"><i class="fa-solid fa-clock"></i> Availability:</span>
+                <span class="detail-value text-green">Immediate Joiner</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-key"><i class="fa-solid fa-graduation-cap"></i> Education:</span>
+                <span class="detail-value">PGP Data Science (Great Lakes) &amp; MCA (JEC)</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-key"><i class="fa-solid fa-certificate"></i> Certification:</span>
+                <span class="detail-value">Google Data Analytics Professional Certificate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-database"></i></div>
+              <h3>Data Pipelines &amp; ETL</h3>
+              <p>Designing robust data collection, extraction, and validation pipelines with SQL, Python (Pandas/NumPy), and automated workflows.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-chart-column"></i></div>
+              <h3>BI &amp; KPI Dashboards</h3>
+              <p>Building high-impact dashboards in Looker, Streamlit, and Power BI to empower stakeholders with real-time operational metrics.</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-gears"></i></div>
+              <h3>Process Automation</h3>
+              <p>Eliminating repetitive manual effort using Python scripts, uWorc pipelines, and AI-assisted workflows (Cursor AI).</p>
+            </div>
+            <div class="pillar-card">
+              <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Data Governance &amp; Quality</h3>
+              <p>Conducting master data handling, metadata standardization, audit readiness, and root-cause analysis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02 // Capabilities</span>
+          <h2 class="section-title">Core Skills &amp; Technologies</h2>
+          <p class="section-subtitle">A comprehensive breakdown of tools, frameworks, and methodologies I use.</p>
+        </div>
+
+        <div class="skills-container">
+          <!-- Category 1: Languages & Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-code"></i>
+              <h3>Programming, Querying &amp; Analytics</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip"><i class="fa-brands fa-python"></i> Python (Pandas, NumPy)</span>
+              <span class="chip"><i class="fa-solid fa-database"></i> SQL (MySQL, PostgreSQL)</span>
+              <span class="chip">Advanced Excel (Pivot, Formulas)</span>
+              <span class="chip">Google Sheets (Advanced Tracking)</span>
+              <span class="chip">Exploratory Data Analysis (EDA)</span>
+              <span class="chip">ETL &amp; Data Extraction</span>
+              <span class="chip">Data Modeling</span>
+            </div>
+          </div>
+
+          <!-- Category 2: BI & Visualization -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-chart-pie"></i>
+              <h3>Reporting, BI &amp; Visualization</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip">Looker</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">Power BI</span>
+              <span class="chip">Tableau</span>
+              <span class="chip">KPI Reporting &amp; Scorecards</span>
+              <span class="chip">Interactive Dashboards</span>
+              <span class="chip">Workforce Capacity Metrics</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Data Management & Governance -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-list-check"></i>
+              <h3>Data Management &amp; Quality</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip">Master Data Handling</span>
+              <span class="chip">Data Cleaning &amp; Preparation</span>
+              <span class="chip">Data Quality Checks (QA)</span>
+              <span class="chip">Metadata Standards</span>
+              <span class="chip">Audit Readiness &amp; Traceability</span>
+              <span class="chip">Root Cause Analysis (RCA)</span>
+              <span class="chip">NLP Text Data Preparation</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Enterprise & Productivity Platforms -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-building"></i>
+              <h3>Enterprise Platforms &amp; Soft Skills</h3>
+            </div>
+            <div class="skill-chips">
+              <span class="chip">uWorc (Uber Workflow Automation)</span>
+              <span class="chip">Observe.AI</span>
+              <span class="chip">NICE</span>
+              <span class="chip">DSW</span>
+              <span class="chip">Jira</span>
+              <span class="chip">Cursor AI</span>
+              <span class="chip">Stakeholder Management</span>
+              <span class="chip">Requirement Gathering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03 // Portfolio</span>
+          <h2 class="section-title">Key Projects &amp; Implementations</h2>
+          <p class="section-subtitle">Real-world business solutions delivered across capacity planning, dashboard migrations, and data pipelines.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="automation">Automation &amp; Forecasting</button>
+          <button class="filter-btn" data-filter="bi">BI &amp; Dashboards</button>
+          <button class="filter-btn" data-filter="nlp">NLP &amp; Data Prep</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Capacity Planning Tool -->
+          <article class="project-card" data-category="automation">
+            <div class="project-badge-top">
+              <span class="category-tag">Automation &amp; Forecasting</span>
+              <span class="highlight-metric">Optimized Resource Allocation</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Capacity Planning &amp; Workload Forecasting Tool</h3>
+              <p class="project-desc">
+                Developed an end-to-end capacity planning tool using Python and MySQL to forecast operational workloads, 
+                streamline resource allocation, and automate recurring reporting workflows to minimize manual intervention.
+              </p>
+              <div class="project-metrics-box">
+                <div class="p-metric">
+                  <span class="p-label">Impact:</span>
+                  <span class="p-val">Manual effort cut substantially</span>
+                </div>
+                <div class="p-metric">
+                  <span class="p-label">Visualization:</span>
+                  <span class="p-val">Interactive Looker Dashboard</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>Looker</span>
+                <span>Workflow Automation</span>
+                <span>Workforce Analytics</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+                <button class="btn btn-sm btn-primary modal-trigger" data-project="project-capacity">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Operational Dashboard Migration -->
+          <article class="project-card" data-category="bi">
+            <div class="project-badge-top">
+              <span class="category-tag">BI &amp; Modernization</span>
+              <span class="highlight-metric">Seamless Enterprise Migration</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Operational Dashboard Migration &amp; Integration</h3>
+              <p class="project-desc">
+                Integrated Observe.AI data streams to bolster business reporting, assisted in migrating operational analytics 
+                from legacy NICE to Observe.AI, and migrated enterprise dashboards from Looker to Streamlit using Cursor AI.
+              </p>
+              <div class="project-metrics-box">
+                <div class="p-metric">
+                  <span class="p-label">Platforms:</span>
+                  <span class="p-val">Looker ➔ Streamlit</span>
+                </div>
+                <div class="p-metric">
+                  <span class="p-label">Analytics:</span>
+                  <span class="p-val">Observe.AI &amp; NICE</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span>Streamlit</span>
+                <span>Looker</span>
+                <span>Observe.AI</span>
+                <span>Cursor AI</span>
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+                <button class="btn btn-sm btn-primary modal-trigger" data-project="project-migration">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Performance Analytics Dashboard -->
+          <article class="project-card" data-category="bi">
+            <div class="project-badge-top">
+              <span class="category-tag">BI &amp; Dashboards</span>
+              <span class="highlight-metric">38% Inconsistency Reduction</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Squash Player Performance Analytics Dashboard</h3>
+              <p class="project-desc">
+                Engineered an end-to-end Power BI dashboard to analyze squash player performance metrics. Handled large-scale 
+                data extraction in SQL, robust cleaning in Pandas and Excel, and collaborated with QA for data validation.
+              </p>
+              <div class="project-metrics-box">
+                <div class="p-metric">
+                  <span class="p-label">Data Quality:</span>
+                  <span class="p-val">Inconsistencies down 38%</span>
+                </div>
+                <div class="p-metric">
+                  <span class="p-label">Tooling:</span>
+                  <span class="p-val">Power BI &amp; SQL</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span>Power BI</span>
+                <span>SQL</span>
+                <span>Python (Pandas)</span>
+                <span>Advanced Excel</span>
+                <span>Data QA</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+                <button class="btn btn-sm btn-primary modal-trigger" data-project="project-squash">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: NLP Text Data Preparation -->
+          <article class="project-card" data-category="nlp">
+            <div class="project-badge-top">
+              <span class="category-tag">NLP &amp; Data Prep</span>
+              <span class="highlight-metric">High-Fidelity AI Dataset</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Text Data Cleaning &amp; Preparation for NLP Chatbot</h3>
+              <p class="project-desc">
+                Extracted, cleaned, and transformed unstructured multi-source text data for an AI chatbot training pipeline. 
+                Eliminated noisy duplicates, enforced metadata standards, and established organizational data compliance.
+              </p>
+              <div class="project-metrics-box">
+                <div class="p-metric">
+                  <span class="p-label">Domain:</span>
+                  <span class="p-val">Conversational AI / NLP</span>
+                </div>
+                <div class="p-metric">
+                  <span class="p-label">Standards:</span>
+                  <span class="p-val">100% Metadata Compliant</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Text Preprocessing</span>
+                <span>Data Quality</span>
+                <span>Metadata Standards</span>
+                <span>NLP</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+                <button class="btn btn-sm btn-primary modal-trigger" data-project="project-nlp">
+                  <i class="fa-solid fa-circle-info"></i> Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04 // Career Journey</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Track record of building data pipelines, operational dashboards, and driving efficiencies.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: Uber -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">January 2026 — Present</div>
+            <div class="timeline-card">
+              <div class="timeline-role-header">
+                <h3>Data Analytics Specialist</h3>
+                <span class="company-name">Uber • Hyderabad, India</span>
+              </div>
+              <p class="timeline-desc">
+                Queried large datasets using MySQL to generate actionable business insights and operational metrics. 
+                Developed Python automation scripts for data processing and constructed interactive dashboards in Looker 
+                and Streamlit. Leveraged Observe.AI and designed uWorc automation pipelines to streamline workflows.
+              </p>
+              <div class="timeline-skills">
+                <span>MySQL</span>
+                <span>Python</span>
+                <span>Looker</span>
+                <span>Streamlit</span>
+                <span>Observe.AI</span>
+                <span>uWorc</span>
+                <span>Root Cause Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Pro Solutions -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">January 2024 — March 2025</div>
+            <div class="timeline-card">
+              <div class="timeline-role-header">
+                <h3>Data Analyst</h3>
+                <span class="company-name">Pro Solutions • Bhopal, India</span>
+              </div>
+              <p class="timeline-desc">
+                Managed master data for analytics systems, performed data extraction/cleaning using SQL and Pandas, 
+                and reduced inconsistencies by 38% on large performance datasets. Built interactive Power BI dashboards 
+                and standardized metadata documentation for audit readiness.
+              </p>
+              <div class="timeline-skills">
+                <span>SQL</span>
+                <span>Python (Pandas)</span>
+                <span>Power BI</span>
+                <span>Advanced Excel</span>
+                <span>Master Data Handling</span>
+                <span>Data Quality</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Freelance Trainer -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">June 2024 — December 2024</div>
+            <div class="timeline-card">
+              <div class="timeline-role-header">
+                <h3>Freelance Data Science &amp; Analytics Trainer</h3>
+                <span class="company-name">Independent</span>
+              </div>
+              <p class="timeline-desc">
+                Conducted hands-on training sessions on Python, SQL, Power BI, Advanced Excel, and Core Data Analytics concepts 
+                for students and working professionals. Designed real-world case studies and datasets for practical learning.
+              </p>
+              <div class="timeline-skills">
+                <span>Training &amp; Mentorship</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Power BI</span>
+                <span>Curriculum Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="education-section" id="education" style="background: var(--bg-secondary); padding: 5rem 0; border-top: 1px solid var(--card-border); border-bottom: 1px solid var(--card-border);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05 // Academics &amp; Credentials</span>
+          <h2 class="section-title">Education &amp; Certifications</h2>
+          <p class="section-subtitle">Formal foundation in Computer Applications, Data Science, and certified analytics methodologies.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem;">
+          <!-- Card 1: Great Lakes -->
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">2023 — 2024</span>
+            <h3 style="margin-top: 0.4rem;">PGP – Data Science &amp; Engineering</h3>
+            <p style="color: var(--accent-blue); font-weight: 600; margin-bottom: 0.5rem;">Great Lakes Institute of Management, Hyderabad</p>
+            <p>Comprehensive postgraduate curriculum in Machine Learning, Statistical Inference, Predictive Modeling, Advanced SQL, and Big Data Engineering.</p>
+          </div>
+
+          <!-- Card 2: MCA -->
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">2021 — 2023</span>
+            <h3 style="margin-top: 0.4rem;">MCA – Master of Computer Applications</h3>
+            <p style="color: var(--accent-blue); font-weight: 600; margin-bottom: 0.5rem;">Jabalpur Engineering College</p>
+            <p>Specialized in Core Computer Science, Relational Database Management Systems (RDBMS), Data Structures, Algorithms, and Software Engineering.</p>
+          </div>
+
+          <!-- Card 3: Google Certificate -->
+          <div class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-award"></i></div>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">Coursera 2024</span>
+            <h3 style="margin-top: 0.4rem;">Google Data Analytics Professional Certificate</h3>
+            <p style="color: var(--accent-blue); font-weight: 600; margin-bottom: 0.5rem;">Google Career Certificates</p>
+            <p>Rigorous 8-course certification covering end-to-end data analysis: data cleaning, SQL problem solving, R programming, Tableau visualizations, and case studies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated Resume & Credentials Section -->
+    <section class="resume-section" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">06 // Curriculum Vitae</span>
+          <h2 class="section-title">Resume &amp; Credentials</h2>
+          <p class="section-subtitle">Download my official resume or preview the document directly below.</p>
+        </div>
+
+        <div class="resume-wrapper">
+          <!-- Left Column: Highlights & Download Actions -->
+          <div class="resume-info-card">
+            <div class="resume-badge-status">
+              <span class="pulse-indicator"></span>
+              <span>Ready for Immediate Onboarding</span>
+            </div>
+
+            <h3 class="resume-card-title">Prachi Jain</h3>
+            <p class="resume-card-subtitle">Data Analytics Specialist &amp; Data Scientist</p>
+
+            <div class="resume-highlights-list">
+              <div class="rh-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                  <strong>2+ Years Hands-on Experience</strong>
+                  <span>Uber (Hyderabad) &amp; Pro Solutions (Bhopal)</span>
+                </div>
+              </div>
+              <div class="rh-item">
+                <i class="fa-solid fa-layer-group"></i>
+                <div>
+                  <strong>Core Analytics &amp; BI Stack</strong>
+                  <span>SQL (MySQL, PostgreSQL), Python, Looker, Streamlit, Power BI</span>
+                </div>
+              </div>
+              <div class="rh-item">
+                <i class="fa-solid fa-chart-line"></i>
+                <div>
+                  <strong>Proven Business Impact</strong>
+                  <span>38% drop in data inconsistencies &amp; automated operational ETL</span>
+                </div>
+              </div>
+              <div class="rh-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Formal Credentials</strong>
+                  <span>PGP Data Science (Great Lakes) • MCA (JEC) • Google Certified</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-cta-buttons">
+              <a href="./Prachi_Jain_Resume.pdf" download="Prachi_Jain_Resume.pdf" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume (PDF)
+              </a>
+              <a href="./Prachi_Jain_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in New Tab
+              </a>
+            </div>
+
+            <div class="resume-file-meta">
+              <span><i class="fa-regular fa-file-pdf"></i> Format: PDF</span>
+              <span><i class="fa-regular fa-clock"></i> Updated: 2026</span>
+              <span><i class="fa-solid fa-shield-halved"></i> ATS Optimized</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Embedded PDF Viewer -->
+          <div class="resume-preview-card">
+            <div class="preview-header">
+              <div class="preview-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="preview-title">Prachi_Jain_Resume.pdf</span>
+              <a href="./Prachi_Jain_Resume.pdf" target="_blank" class="preview-open-link" title="Open full screen">
+                <i class="fa-solid fa-expand"></i>
+              </a>
+            </div>
+            <div class="preview-body">
+              <iframe src="./Prachi_Jain_Resume.pdf#toolbar=0" class="resume-iframe" title="Prachi Jain Resume Preview"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">07 // Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Looking for an immediate joiner for Data Analytics or Data Science roles? Let's connect!</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card">
+            <h3>Let's talk Data &amp; Analytics</h3>
+            <p>
+              I am actively interviewing and available for <strong>Immediate Joining</strong> in Data Analytics Specialist, 
+              Data Analyst, or Data Science positions. Feel free to contact me directly via phone, email, or LinkedIn.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="cm-label">Email Address</span>
+                  <div class="email-copy-wrapper">
+                    <span id="email-address">prachijain6699@gmail.com</span>
+                    <button id="copy-email-btn" class="copy-btn" title="Copy to clipboard">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <span class="cm-label">Phone</span>
+                  <a href="tel:+916266761271" class="cm-link">+91-6266761271</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-brands fa-linkedin"></i></div>
+                <div>
+                  <span class="cm-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/prachi-jain6584" target="_blank" rel="noopener noreferrer" class="cm-link">linkedin.com/in/prachi-jain6584</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <span class="cm-label">GitHub</span>
+                  <a href="https://github.com/PrachiJain123" target="_blank" rel="noopener noreferrer" class="cm-link">github.com/PrachiJain123</a>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span class="cm-label">Location</span>
+                  <span class="cm-val">Hyderabad, India (Immediate Joiner)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <form id="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="form-name">Your Name</label>
+                <input type="text" id="form-name" required placeholder="Hiring Manager / Recruiter Name" />
+              </div>
+              <div class="form-group">
+                <label for="form-email">Your Email</label>
+                <input type="email" id="form-email" required placeholder="recruiter@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" required placeholder="Data Analytics / Data Science Opportunity" />
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" rows="4" required placeholder="Hi Prachi, we came across your portfolio and would like to discuss an opportunity..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>&copy; <span id="current-year"></span> Prachi Jain. Built with HTML/CSS &amp; hosted on GitHub Pages.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" title="Back to top">
+          Back to top <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Architecture Detail Modal -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
+      <div id="modal-content-target">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast">Email copied to clipboard!</div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
